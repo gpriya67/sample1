@@ -14,7 +14,7 @@ const Branch = () => {
 
   
   const handleAddOrUpdate = () => {
-    if (name.trim() === "" |  | company.trim() === "" || location.trim() === "") {
+    if (name.trim() === "" || company.trim() === "" || location.trim() === "") {
       Swal.fire({
         icon: "error",
         title: "Validation Error",
